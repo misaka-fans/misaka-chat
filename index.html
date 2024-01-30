@@ -21,7 +21,7 @@
                     let pio_container = document.createElement("div");
                     pio_container.classList.add("pio-container");
                     pio_container.classList.add("right");
-                    pio_container.style.bottom = "-2rem";
+                    pio_container.style.bottom = "-1rem";
                     pio_container.style.zIndex = "1";
                     document.body.insertAdjacentElement("beforeend", pio_container);
                     let pio_action = document.createElement("div");
@@ -30,8 +30,8 @@
                     let pio_canvas = document.createElement("canvas");
                     pio_canvas.id = "pio";
                     pio_canvas.style.width = "14rem";
-                    pio_canvas.width = "750";
-                    pio_canvas.height = "1000";
+                    pio_canvas.width = "100%";
+                    pio_canvas.height = "100%";
                     pio_container.insertAdjacentElement("beforeend", pio_canvas);
                     let pio = new Paul_Pio({
                       "mode": "fixed",
