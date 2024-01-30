@@ -20,15 +20,11 @@ const initLive2d = () => {
     content: {
       link: ['https://github.com/misaka-fans/misaka-fans.github.io'],
       skin: ['要换成我的朋友吗？', '让她放个假吧~'],
-      hidden: true,
+      hidden: false,
       custom: [],
     },
     model: [
       'https://misaka-fans.github.io/live2d/mikoto/mikoto.model.json',
-      'https://misaka-fans.github.io/live2d/kuroko/kuroko.model.json',
-      'https://misaka-fans.github.io/live2d/uiharu/uiharu.model.json',
-      'https://misaka-fans.github.io/live2d/saten/saten.model.json',
-      'https://misaka-fans.github.io/live2d/index/index.model.json',
     ],
   });
 };
