@@ -16,7 +16,7 @@
     <!--<link rel="stylesheet" href="https://cdn.misaka-fans.space/live2d.min.css"/>-->
               <script
                 async="async"
-                src="https://cdn.misaka-fans.space/live2d.min.js"
+                src="https://cdn.jsdelivr.net/combine/gh/Dreamer-Paul/Pio@2.4/static/l2d.min.js,gh/Dreamer-Paul/Pio@2.4/static/pio.min.js"
                 onload='
                     let pio_container = document.createElement("div");
                     pio_container.classList.add("pio-container");
@@ -30,8 +30,8 @@
                     let pio_canvas = document.createElement("canvas");
                     pio_canvas.id = "pio";
                     pio_canvas.style.width = "14rem";
-                    pio_canvas.width = "1500";
-                    pio_canvas.height = "2000";
+                    pio_canvas.width = "3000";
+                    pio_canvas.height = "4000";
                     pio_container.insertAdjacentElement("beforeend", pio_canvas);
                     let pio = new Paul_Pio({
                       "mode": "fixed",
